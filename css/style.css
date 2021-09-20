@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 62.5%;
+  text-align: center; }
+
+.header {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%; }
+
+body {
+  background-color: gray; }
+
+@media only screen and (min-width: 300px) {
+  .navbar {
+    padding: 20px 0; }
+  .nav__text {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: -0.3rem;
+    transition: 0.3s;
+    text-decoration: underline 2px #5165f6; }
+  .nav__text:hover {
+    text-decoration: none; }
+  .nav__span {
+    color: #f5dc56; }
+  #nav-font {
+    font-size: 2rem;
+    color: white;
+    margin: 0 10px; }
+  #nav-font:hover {
+    color: gray; }
+  .home {
+    background-image: url(https://i.imgur.com/NMd44uy.jpg);
+    background-size: auto 105%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .home__text {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .home__text h1 {
+      font-family: 'Lato', sans-serif;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 4rem; }
+  .home__logo {
+    width: 60px;
+    margin-top: -3px;
+    margin-left: 4px; }
+  .home__second {
+    margin: 20px 0; }
+  .home__ds {
+    background-color: #5165f6;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s; }
+  .home__ds:hover {
+    color: white;
+    background-color: #212529; }
+  .logo__ds {
+    margin-left: .5rem;
+    margin-top: -0.5rem;
+    width: 30px; } }
+
+@media only screen and (min-width: 600px) {
+  .home__text {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .home__text h1 {
+      font-size: 6rem; }
+  .home__logo {
+    width: 80px;
+    margin-top: -3px;
+    margin-left: 4px; }
+  .home__second {
+    margin: 20px 0; }
+  .home__ds {
+    background-color: #5165f6;
+    padding: 8px;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+    transition: 0.3s; }
+  .home__ds:hover {
+    color: white;
+    background-color: #f5dc56; }
+  .logo__ds {
+    margin-left: .5rem;
+    margin-top: -0.5rem;
+    width: 30px; } }
